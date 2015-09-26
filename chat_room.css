@@ -1,0 +1,154 @@
+a{
+	cursor: pointer;
+}
+body{
+	background: #2d4052;
+	margin: 0;
+}
+.outer{
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	background: white;
+}
+header{
+	text-align: center;
+}
+h1{
+	font-family: 'signika';
+	margin: 0;
+}
+#navigasi{
+	display: block;
+	width: 100%;
+	background: #3498db;
+	height: 30px;
+	margin-bottom: 20px;
+	-webkit-box-shadow:0 1px 1px rgb(0,0,0);
+	-moz-box-shadow:0 1px 1px rgb(0,0,0);
+	box-shadow:0 1px 1px rgb(0,0,0);
+}
+#navigasi ul{
+	width: 100%;
+	list-style: none;
+	padding: 0;
+}
+#navigasi ul li{
+	display: inline-block;
+	float: left;
+}
+#keluar{
+	float: right;
+}
+#navigasi li a,
+#keluar{
+	padding: 0 8px;
+	display: inline-block;
+	line-height: 30px;
+}
+#navigasi li a:hover,
+#keluar:hover{
+	background: #2980b9;
+}
+
+.konten{
+	display: block;
+	float: left;
+	width: 500px;
+	margin: 0 10px;
+	border: 1px solid;
+	background: #151515;
+}
+#judul{
+	background: #2980b9;
+	color: white;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+}
+#removechat{
+	line-height: 30px;
+	margin: 5px;
+	padding: 0 8px;
+	position: absolute;
+	display: none;
+	right: 0;
+	background: #2c3e50;
+	color: white;
+}
+#removechat:hover{
+	background: black;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#chatboard{
+	list-style: none;
+	padding: 0;
+	width: 90%;
+	margin: 0 auto;
+	max-height: 400px;
+	overflow:auto;
+	border-width: 0 1px 1px;
+	border-style: solid;
+	border-color: white;
+}
+#isi_chat{
+	width: 90%;
+	display: block;
+	height: 50px;
+	margin: 5px auto;
+	overflow: auto;
+	resize:none;
+}
+#chatboard li{
+	font: normal 12px 'Tahoma';
+	line-height: 30px;
+	padding: 0 10px;
+	color:white;
+	margin: 8px;
+	display: block;
+}
+#p_admin1,
+#c_admin1{
+	background: #d35400;
+}
+#p_admin2,
+#c_admin2{
+	background: #27ae60;
+}
+#p_admin3,
+#c_admin3{
+	background: #9b59b6;
+}
+#user{
+	outline: 1px solid;
+	float: right;
+	display: inline-block;
+	width: 270px;
+	height: auto;
+	margin: 0 10px;
+}
+#jd_pengguna{
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	line-height: 40px;
+	background: #2980b9;
+}
+#pengguna{
+	margin: 5px 0;
+	padding: 0;
+}
+#pengguna li{
+	list-style: none;
+	line-height: 30px;
+	color: white;
+}
+footer{
+	display: block;
+	clear: both;
+	height: 100px;
+	outline: 1px solid;
+}
