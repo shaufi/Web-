@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>C'Room 2015</title>
+		<link rel="stylesheet" type="text/css" href="css/c_room.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font.css"/>
+		<script type="text/javascript" src="js/c_room.js"></script>
+	</head>
+	<body onload="masukCroom()">
+		<div class="outer">
+			<header>
+				<h1>C'Room 2015</h1>
+				<span>masih dalam tahap pengembangan<span>
+			</header>
+			<nav id="navigasi">
+				<ul>
+					<li><a>Beranda</a></li>
+					<li><a>Tentang Kami</a></li>
+					<li><a>Lebih Lanjut</a></li>
+					<li><a>Referensi</a></li>
+				</ul>
+				<a id="keluar" onclick="keluar()">Keluar</a>
+			</nav>
+			<div class="konten">
+					<div id="judul">CHATBOARD
+						<div id='removechat' onclick="hapuschat()">Hapus Chat</div>
+					</div>
+					<ul id="chatboard"></ul>
+					<textarea id="isi_chat" onKeyPress="enter(event, this)" placeholder="tulis chat di sini"></textarea>
+			</div>
+			<div id="user">
+				<div id="jd_pengguna">Pengguna Aktif</div>
+				<ul id="pengguna">
+				<ul id="Dhany">
+				
+				</ul>
+			</div>
+			<footer><p>&copy; C'Room 2015</p></footer>
+		</div>
+	</body>
+</html>
